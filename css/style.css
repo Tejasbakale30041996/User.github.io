@@ -1,0 +1,355 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background: #0f0c65;
+/* 
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+
+}
+
+::selection {
+
+    background-color: #d53c3c;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container2 {
+
+    max-width: 930px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.row {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+
+    width: 75%;
+}
+
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+
+.col-12 {
+    width: 100%;
+}
+
+.user{
+
+
+    background:#44419b;
+    padding: 30px;
+    margin-top: 40px;
+    width: 40%;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 2px solid #fff;
+
+}
+
+.user h3{
+
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+
+.user input[type=text]{
+
+    width: 400px;
+    background: #fff;
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #595c5f;
+    font-family: 'Poppins', sans-serif;
+    transition: .2s linear;
+}
+
+.user input[type=text]:focus{
+
+background: #d53c3c;
+color: #fff;
+}
+
+.user input[type=password]{
+
+    width: 400px;
+    background: #fff;
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #595c5f;
+    font-family: 'Poppins', sans-serif;
+    transition: .2s linear;
+    
+}
+
+.user input[type=password]:focus{
+
+    background: #d53c3c;
+    color: #fff;
+}
+
+.user input[ type=submit]{
+
+    text-transform: uppercase;
+    color: #fff;
+    background: #567da3;
+    font-size: 16px;
+    padding: 12px 24px;
+    text-align: center;
+    width: 400px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+    transition: .2s linear;
+}
+
+.user input[ type=submit]:hover{
+
+    background: #d53c3c;
+    color: #fff;
+}
+
+.user input[ type=reset]{
+
+    text-transform: uppercase;
+    color: #fff;
+    background: #567da3;
+    font-size: 16px;
+    padding: 12px 24px;
+    text-align: center;
+    width: 400px;
+    border: none;
+    outline: none;
+    transition: .2s linear;
+    margin-top: 20px;
+}
+
+.user input[ type=reset]:hover{
+
+    background: #d53c3c;
+    color: #fff;
+}
+
+.user h4{
+
+    color: #fff;
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================================== Media querie ============================================= */
+/* ============================================================== Media querie ============================================= */
+
+@media screen and ( max-width:1024px){
+
+    .container{
+
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .user h3{
+
+        font-size: 22px;
+
+    }
+
+    .user input[type=text]{
+
+        width: 310px;
+        font-size: 15px;
+        padding: 7px;
+    }
+
+    .user input[type=password]{
+ 
+        width: 310px;
+        font-size: 15px;
+        padding: 7px;
+    }
+
+    .user input[ type=submit]{
+
+        width: 310px;
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+    .user h4{
+
+        font-size: 16px;
+    }
+}
+
+
+@media screen and ( max-width:991px){
+
+    .container{
+
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .user {
+
+        width: 50%;
+
+    }
+
+   
+}
+
+@media screen and ( max-width:767px){
+
+    .container{
+
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    [class*="col-"]{
+
+        width: 100%;
+    }
+
+    .user {
+
+        width: 300px;
+        padding: 20px;
+      
+    }
+
+    .user h3{
+
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+
+    .user input[type=text] {
+        width: 258px;
+        font-size: 14px;
+        padding: 7px;
+    }
+
+    .user input[type=password]{
+
+        width: 258px;
+        font-size: 14px;
+        padding: 7px;
+    }
+
+    .user   .form-check-input[type=checkbox] {
+
+        width: 13px;
+        height: 13px;
+       }
+
+    .user input[ type=submit]{
+
+        width: 258px;
+    }
+
+    .user h4{
+
+        font-size: 14px;
+    }
+  
+}
