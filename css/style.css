@@ -141,7 +141,7 @@ font-family: 'Raleway', sans-serif; */
     transition: .2s linear;
 }
 
-.user input[type=text]:focus{
+.user input[type=email]:focus{
 
 background: #d53c3c;
 color: #fff;
