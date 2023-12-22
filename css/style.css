@@ -126,7 +126,7 @@ font-family: 'Raleway', sans-serif; */
 
 }
 
-.user input[type=text]{
+.user input[type=email]{
 
     width: 400px;
     background: #fff;
